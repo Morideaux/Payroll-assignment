@@ -6,9 +6,9 @@ const collectEmployees = function() {
   // TODO: Get user input to create and return an array of employee objects
   const employees = [];
 
-  let continue = true;
+  let addEmployees = true;
 
-  while (continue) {
+  while (addEmployee) {
     const firstName = prompt("enter first name:");
     const lastName = prompt("enter last name:");
     let salary = prompt("enter salary:");
@@ -25,7 +25,7 @@ const collectEmployees = function() {
 
     employees.push(employee);
 
-    continue = confirm("add anouther employee?");
+    addEmployee = confirm("add anouther employee?");
   }
 
     return employees;
