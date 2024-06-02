@@ -13,9 +13,9 @@ const collectEmployees = function() {
     const lastName = prompt("enter last name:");
     let salary = prompt("enter salary:");
 
-    is (isNaN(salary)) {
+    is (isNaN(salary)){
       salary = 0;
-    }
+    };
 
     const employee = {
       firstName: firstName,
